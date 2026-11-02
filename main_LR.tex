@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper]{article}
+\input{preamble}
+
+\title{Literature Review}
+\author{Your name}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Scope}
+Define your research question, inclusion criteria, and the themes
+used to organize the review.
+
+\section{Comparison of papers}
+The following entries illustrate the format using two energy papers.
+Replace them with your own reading notes.
+
+\tableaurevue{
+  \papier
+    {canalesAssessingTemporalComplementarity2020}
+    {How can temporal complementarity among three variable
+     renewable energy sources be quantified?}
+    {Correlation coefficients and compromise programming;
+     application to wind, solar and hydropower in a region of Poland.}
+    {The chosen temporal scale strongly affects the estimated
+     complementarity index. The application is context-specific.}
+
+  \papier
+    {cauzEmbracingWindPower2025}
+    {How can wind complement solar PV in the Swiss energy system?}
+    {Analysis of Swiss generation data from 2020--2023 using
+     Spearman correlations and energy-flow simulations with storage.}
+    {Wind and solar show temporal complementarity across several
+     time scales. Scenario results depend on the generation mix
+     and storage assumptions.}
+}
+
+% Add another theme with a new section and \tableaurevue{...}.
+% Each row: \papier{BibTeX key}{Question}{Method}{Result}
+% Escape literal special characters in cell text: \%, \&, \_.
+
+\section{Synthesis and research gaps}
+Compare findings across papers, discuss methodological limitations,
+and identify questions that remain open.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

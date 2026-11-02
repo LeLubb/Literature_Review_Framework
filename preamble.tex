@@ -1,0 +1,45 @@
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[authoryear,round]{natbib}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage[hidelinks]{hyperref}
+
+% One paper: citation key, research question, method, result.
+\newcommand{\papier}[4]{%
+  \citet{#1} & #2 & #3 & #4 \\
+  \addlinespace[0.7em]
+}
+
+% Reusable table with automatic page breaks and repeated headings.
+\newcommand{\tableaurevue}[1]{%
+  \begingroup
+  \small
+  \renewcommand{\arraystretch}{1.2}
+  \setlength{\tabcolsep}{5pt}
+
+  \begin{xltabular}{\textwidth}{
+    @{}
+    >{\raggedright\arraybackslash}p{0.18\textwidth}
+    *{3}{>{\raggedright\arraybackslash}X}
+    @{}
+  }
+    \toprule
+    \textbf{Citation} &
+    \textbf{Research question} &
+    \textbf{Method} &
+    \textbf{Result} \\
+    \midrule
+    \endhead
+
+    #1
+
+    \bottomrule
+  \end{xltabular}
+  \endgroup
+}
