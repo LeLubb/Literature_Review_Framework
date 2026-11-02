@@ -1,3 +1,5 @@
+Salut, j'ai bidouillé ça vite fait avec la version desktop de GPT-6 Astra 'Très Élevé'. Ça fait le taff pour une revue de littérature à condition d'être à l'aise avec VS Code, LaTeX et Zotero (je considère que la prise de note est faite directement via Zotero - pour les recalcitrants et adorateur de Notion/Obsidian, il existe une version 'Notero' de Zotero+Notion, ça vaut ce que ça vaut mais ça a le mérite d'exister). En vous souhaitant une bonne utilisation (si tant est qu'elle le soit !) du soleil et d'entendre les cigales.
+
 # Literature Review Framework
 
 A reusable LaTeX framework for comparing research papers, with Zotero bibliography synchronization and VS Code support.
