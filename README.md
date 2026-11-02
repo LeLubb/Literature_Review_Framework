@@ -6,7 +6,7 @@ Each paper is one table row: **Citation · Research question · Method · Result
 
 ## Quick start
 
-1. Install a TeX distribution with **pdfLaTeX, BibTeX and latexmk**: [MacTeX](https://www.tug.org/mactex/) on macOS, [TeX Live](https://www.tug.org/texlive/) on Linux, or [MiKTeX](https://miktex.org/) on Windows. Install missing LaTeX packages if prompted; latexmk on Windows also requires Perl.
+1. Install a TeX distribution with **pdfLaTeX, BibTeX and latexmk**: [MacTeX](https://www.tug.org/mactex/) on macOS, [TeX Live](https://www.tug.org/texlive/) on Linux, or [MiKTeX](https://miktex.org/) on Windows. Install missing LaTeX packages if prompted; latexmk on Windows also requires Perl. I recommend to use VS code for a better compatibility with GitHub, but it is more a personal tasted rather than a polished advice.
 2. Clone or download this repository:
 
    ```sh
